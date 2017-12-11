@@ -1,0 +1,24 @@
+test-only
+testOnly
+test-only
+testOnly
+test-Only
+testOnly
+clean
+testOnly
+clean
+testOnly
+testOnly -- -z "make a new search over a previous search"
+testOnly
+testOnly -- -z "make a new search over a previous search"
+testOnly
+testOnly -- -z "make a new search over a previous search"
+testOnly
+testOnly -- -z "make a new search over a previous search"
+testOnly
+testOnly -- -z "filter the results accordingly when doing a search"
+clean
+testOnly -- -z "filter the results accordingly when doing a search"
+clean
+testOnly -- -z "filter the results accordingly when doing a search"
+testOnly
