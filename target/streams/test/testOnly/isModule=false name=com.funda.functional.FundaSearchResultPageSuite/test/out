@@ -1,9 +1,8 @@
 [0m[[0minfo[0m] [0m[32mFundaSearchResultPageSuite:[0m[0m
 [0m[[0minfo[0m] [0m[32m- should make a search successfully[0m[0m
 [0m[[0minfo[0m] [0m[31m- should navigate to the suggestions page when there is no result *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 98 times over 15.136156457 seconds. Last failure message: "https://www.funda.nl/" did not include substring "/zoeksuggestie/". (Pages.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 100 times over 15.004634679999999 seconds. Last failure message: "https://www.funda.nl/" did not include substring "/zoeksuggestie/". (Pages.scala:57)[0m[0m
 [0m[[0minfo[0m] [0m[32m- should make a new search over a previous search[0m[0m
 [0m[[0minfo[0m] [0m[32m- should filter the results accordingly when doing a search[0m[0m
 [0m[[0minfo[0m] [0m[33m- should bring zero results with a warning message when From parameter is given higher than the Until parameter (pending)[0m[0m
-[0m[[0minfo[0m] [0m[33m- should bring rent results when Rent Tab is selected (pending)[0m[0m
 [0m[[0minfo[0m] [0m[33m- should take you to the last search when there is a last search (pending)[0m[0m

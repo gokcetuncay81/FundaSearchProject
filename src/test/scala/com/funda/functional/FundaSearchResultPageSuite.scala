@@ -18,7 +18,7 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     go to homePage.url
     acceptCookies
     homePage.opened shouldBe true
-    homePage.searchFor("Thuishaven",true)
+    homePage.searchFor("Thuishaven")
     searchResultPage.opened shouldEqual true
   }
 
@@ -26,7 +26,7 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     val noResultPage = new FundaNoResultSuggestionsPage()
     go to homePage.url
 
-    homePage.searchFor("something does not exist",true)
+    homePage.searchFor("something does not exist")
     noResultPage.opened shouldEqual succeed
   }
 
@@ -34,11 +34,11 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     val searchResultPage = new FundaSearchResultPage("koop")
     go to homePage.url
     homePage.opened shouldBe true
-    homePage.searchFor("Utrecht",true)
-    searchResultPage.opened shouldEqual true
+    homePage.searchFor("Utrecht")
+    searchResultPage.opened shouldBe true
 
     searchResultPage.searchFor("Tholen")
-    searchResultPage.opened shouldEqual true
+    searchResultPage.opened shouldBe true
   }
 
   it should "filter the results accordingly when doing a search" in {
@@ -47,7 +47,7 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     homePage.opened shouldBe true
 
     tabsModuleElements.get(1).click()
-    homePage.searchFor("Utrecht",false)
+    homePage.searchFor("Utrecht",true)
     searchResultPage.opened shouldBe true
 
   }

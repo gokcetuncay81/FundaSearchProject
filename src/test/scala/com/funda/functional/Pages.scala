@@ -33,11 +33,11 @@ trait Pages extends Modules {
         tabsModuleElements.size() > 0
     }
 
-    def searchFor(searchTerm: String,isFiltered:Boolean) {
+    def searchFor(searchTerm: String,isFiltered:Boolean=false) {
       if (isFiltered)
-        SearchContainer search(searchTerm,true)
-      else
         SearchContainer searchWithFilter(searchTerm,true)
+      else
+        SearchContainer search(searchTerm,true)
     }
   }
 
