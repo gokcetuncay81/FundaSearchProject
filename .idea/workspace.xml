@@ -55,8 +55,8 @@
       <file leaf-file-name="FundaSearchResultPageSuite.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+            <state relative-caret-position="193">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
               <folding>
                 <element signature="e#30#59#0" expanded="true" />
               </folding>
@@ -91,6 +91,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -132,7 +135,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1274,7 +1277,7 @@
       <workItem from="1512819872470" duration="15798000" />
       <workItem from="1512898927378" duration="115000" />
       <workItem from="1512899063929" duration="242000" />
-      <workItem from="1512899702739" duration="31626000" />
+      <workItem from="1512899702739" duration="32230000" />
     </task>
     <servers />
   </component>
@@ -1290,7 +1293,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47781000" />
+    <option name="totallyTimeSpent" value="48385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -1588,8 +1591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+        <state relative-caret-position="193">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
           <folding>
             <element signature="e#30#59#0" expanded="true" />
           </folding>
