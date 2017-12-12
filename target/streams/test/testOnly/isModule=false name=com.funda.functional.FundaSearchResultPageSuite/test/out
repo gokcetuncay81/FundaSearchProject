@@ -1,20 +1,20 @@
 [0m[[0minfo[0m] [0m[32mFundaSearchResultPageSuite:[0m[0m
 [0m[[0minfo[0m] [0m[31m- should make a search successfully *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 94 times over 15.031755178 seconds. Last failure message: no such element: Unable to locate element: {"method":"id","selector":"range-filter-selector-select-filter_huurprijsvan"}[0m[0m
+[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 98 times over 15.095935162 seconds. Last failure message: "https://www.funda.nl/" did not include substring "koop". (Pages.scala:42)[0m[0m
+[0m[[0minfo[0m] [0m[31m- should navigate to the suggestions page when there is no result *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 94 times over 15.123722189 seconds. Last failure message: "https://www.funda.nl/koop/soest/" did not include substring "/zoeksuggestie/". (Pages.scala:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m- should make a new search over a previous search *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 96 times over 15.041543085999999 seconds. Last failure message: no such element: Unable to locate element: {"method":"id","selector":"range-filter-selector-select-filter_huurprijsvan"}[0m[0m
 [0m[[0minfo[0m] [0m[31m    (Session info: chrome=63.0.3239.84)[0m[0m
 [0m[[0minfo[0m] [0m[31m    (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)[0m[0m
-[0m[[0minfo[0m] [0m[31m  Command duration or timeout: 9 milliseconds[0m[0m
+[0m[[0minfo[0m] [0m[31m  Command duration or timeout: 12 milliseconds[0m[0m
 [0m[[0minfo[0m] [0m[31m  For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html[0m[0m
 [0m[[0minfo[0m] [0m[31m  Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'[0m[0m
 [0m[[0minfo[0m] [0m[31m  System info: host: 'Gokce-Tuncay-2.local', ip: 'fe80:0:0:0:808:2a5c:bbe3:580b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_77'[0m[0m
 [0m[[0minfo[0m] [0m[31m  Driver info: org.openqa.selenium.chrome.ChromeDriver[0m[0m
-[0m[[0minfo[0m] [0m[31m  Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/7_/lcdhq2nj6nb1nfyrkqt1ms8cx_djp2/T/.org.chromium.Chromium.JwnMfL}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}][0m[0m
-[0m[[0minfo[0m] [0m[31m  Session ID: 0bd8c14a7fe104b1aa45da22cbddcca6[0m[0m
+[0m[[0minfo[0m] [0m[31m  Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/7_/lcdhq2nj6nb1nfyrkqt1ms8cx_djp2/T/.org.chromium.Chromium.uCvJ5Y}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}][0m[0m
+[0m[[0minfo[0m] [0m[31m  Session ID: 2b35e45d71a2f27339059a14378bd84a[0m[0m
 [0m[[0minfo[0m] [0m[31m  *** Element info: {Using=id, value=range-filter-selector-select-filter_huurprijsvan}. (Modules.scala:66)[0m[0m
-[0m[[0minfo[0m] [0m[31m- should navigate to the suggestions page when there is no result *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 99 times over 15.027160492 seconds. Last failure message: "https://www.funda.nl/" did not include substring "/zoeksuggestie/". (Pages.scala:59)[0m[0m
-[0m[[0minfo[0m] [0m[31m- should make a new search over a previous search *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 101 times over 15.019490857000001 seconds. Last failure message: "https://www.funda.nl/" did not include substring "koop". (Pages.scala:42)[0m[0m
 [0m[[0minfo[0m] [0m[32m- should filter the results accordingly when doing a search[0m[0m
 [0m[[0minfo[0m] [0m[33m- should bring zero results with a warning message when From parameter is given higher than the Until parameter (pending)[0m[0m
-[0m[[0minfo[0m] [0m[33m- should take you to the last search when there is a last search (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should navigate you to the previous search when there is a successful search (pending)[0m[0m

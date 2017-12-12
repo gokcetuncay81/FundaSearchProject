@@ -2,78 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4bc7b2-915b-47ec-8e0f-7d1b837035d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$cookiePolicyButton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$SearchContainer$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaSearchResultPage$.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite$$anonfun$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/FundaSearchResultPageSuite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$autocompleteFirstAddress$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$autocompleteFirstAddress$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$autocompleteList$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$autocompleteList$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRadius$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRadius$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRangeFrom$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRangeFrom$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRangeUntil$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$filterRangeUntil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$noResultsHeader$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$noResultsHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$notificationButton$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$notificationButton$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchBanner$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchBanner$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchButton$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchButton$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchButton$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchButton$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchModule$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchModule$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchResultSet$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$searchResultSet$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$tabsModuleElements$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$$anonfun$tabsModuleElements$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Modules.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaHomePage$$anonfun$opened$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaHomePage$$anonfun$opened$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaHomePage.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaHomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaNoResultSuggestionsPage$$anonfun$opened$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaNoResultSuggestionsPage$$anonfun$opened$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaNoResultSuggestionsPage.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaNoResultSuggestionsPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaSearchResultPage$$anonfun$opened$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaSearchResultPage$$anonfun$opened$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaSearchResultPage.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$FundaSearchResultPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/Pages.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$$anon$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$$anonfun$webDriver$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$$anonfun$webDriver$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/funda/functional/core/BaseFunctionalTest$class.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/funda/functional/Modules.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/funda/functional/Modules.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/searchforfunda_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/searchforfunda_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/searchforfunda_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/searchforfunda_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-searchforfunda_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=com.funda.functional.FundaSearchResultPageSuite/test/out" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=com.funda.functional.FundaSearchResultPageSuite/test/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/com.funda.functional.FundaSearchResultPageSuite.xml" afterPath="$PROJECT_DIR$/target/test-reports/com.funda.functional.FundaSearchResultPageSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.sh" afterPath="$PROJECT_DIR$/test.sh" />
     </list>
     <ignored path="SearchForFunda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,8 +60,8 @@
       <file leaf-file-name="BaseFunctionalTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="161">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
                 <element signature="e#35#54#0" expanded="true" />
               </folding>
@@ -125,23 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FundaSearchResultPageSuite.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FundaSearchResultPageSuite.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="e#30#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -150,9 +92,11 @@
       <file leaf-file-name="Configuration.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/configuration/Configuration.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="e#49#89#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,11 +104,11 @@
       <file leaf-file-name="Modules.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/Modules.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="84" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="e#30#81#0" expanded="true" />
-                <element signature="e#756#1220#0" expanded="false" />
+                <element signature="e#675#1139#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -173,10 +117,10 @@
       <file leaf-file-name="Pages.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#30#78#0" expanded="true" />
+                <element signature="e#30#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,8 +129,8 @@
       <file leaf-file-name="test.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -205,8 +149,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -228,7 +172,6 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/configuration/Configuration.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/base.conf" />
-        <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/SearchResultPage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/modules.scala" />
@@ -242,8 +185,9 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/support/FundaSearchResultPageSuite.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala" />
+        <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/Modules.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala" />
       </list>
     </option>
@@ -1318,7 +1262,7 @@
       <workItem from="1512819872470" duration="15798000" />
       <workItem from="1512898927378" duration="115000" />
       <workItem from="1512899063929" duration="242000" />
-      <workItem from="1512899702739" duration="52338000" />
+      <workItem from="1512899702739" duration="55383000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1512989474410</created>
@@ -1327,7 +1271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512989474411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Filtering method is added">
+      <created>1513062917860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513062917860</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Filtering method is added">
+      <created>1513088832053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513088832053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1342,10 +1300,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68493000" />
+    <option name="totallyTimeSpent" value="71538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1390,7 +1348,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Filtering method is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtering method is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1416,7 +1375,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#30#78#0" expanded="true" />
+            <element signature="e#30#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1433,9 +1392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#30#59#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1411,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
-            <element signature="e#30#78#0" expanded="true" />
+            <element signature="e#30#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1483,7 +1440,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
-            <element signature="e#30#78#0" expanded="true" />
+            <element signature="e#30#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1581,18 +1538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1607,58 +1556,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/configuration/Configuration.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#35#54#0" expanded="true" />
+            <element signature="e#30#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/Modules.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="84" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#30#81#0" expanded="true" />
-            <element signature="e#756#1220#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/Pages.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#30#78#0" expanded="true" />
+            <element signature="e#675#1139#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/FundaSearchResultPageSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/BaseFunctionalTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
-            <element signature="e#30#59#0" expanded="true" />
+            <element signature="e#35#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/funda/functional/core/configuration/Configuration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#49#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,6 @@
 package com.funda.functional
 
-import org.openqa.selenium.By
 import org.scalatest.FlatSpec
-
-import com.funda.functional.Pages
 
 /**
   * Created by gokcetuncay on 9.12.2017.

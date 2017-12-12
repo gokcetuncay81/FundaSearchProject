@@ -1,15 +1,8 @@
 package com.funda.functional
 
-import ch.qos.logback.classic.db.names.TableName
 import com.funda.functional.core.BaseFunctionalTest
-import com.funda.functional.core.configuration.Configuration
 import org.openqa.selenium.{By, Keys, WebDriver}
-import org.scalatest.selenium.Page
-
-import scala.concurrent.Await
 import scala.concurrent.duration.{DurationDouble, DurationInt}
-import scala.util.matching.Regex
-import com.funda.functional.Modules
 
 /**
   * Created by gokcetuncay on 9.12.2017.

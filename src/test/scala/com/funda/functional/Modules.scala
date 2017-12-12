@@ -1,10 +1,8 @@
 package com.funda.functional
 
 import com.funda.functional.core.BaseFunctionalTest
-import  com.funda.functional.Pages
 import org.openqa.selenium.By
 import scala.util.{Failure, Success, Try}
-import org.openqa.selenium.JavascriptExecutor
 
 /**
   * Created by gokcetuncay on 9.12.2017.
