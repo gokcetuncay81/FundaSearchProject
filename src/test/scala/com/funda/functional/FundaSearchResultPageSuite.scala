@@ -6,18 +6,19 @@ import org.scalatest.FlatSpec
 import com.funda.functional.Pages
 
 /**
-  * Created by gokcetuncay on 10.12.2017.
+  * Created by gokcetuncay on 9.12.2017.
   */
 class FundaSearchResultPageSuite extends FlatSpec with Pages{
 
-  val host = "https://www.funda.nl/"
+//  val host = "https://www.funda.nl/"
   val homePage = new FundaHomePage()
 
   it should "make a search successfully" in {
     val searchResultPage = new FundaSearchResultPage("koop")
     go to homePage.url
-    acceptCookies
+    acceptCookiePolicy
     homePage.opened shouldBe true
+
     homePage.searchFor("Thuishaven")
     searchResultPage.opened shouldEqual true
   }
@@ -47,16 +48,16 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     homePage.opened shouldBe true
 
     tabsModuleElements.get(1).click()
-    homePage.searchFor("Utrecht",true)
-    searchResultPage.opened shouldBe true
-
+    ApplyFilters(2,4,5)
+    homePage.searchFor("Utrecht")
+    searchResultPage.opened shouldBe succeed
   }
 
   it should "bring zero results with a warning message when From parameter is given higher than the Until parameter" in {
     pending
   }
 
-  it should "take you to the last search when there is a last search" in {
+  it should "navigate you to the previous search when there is a successful search" in {
     pending
   }
 

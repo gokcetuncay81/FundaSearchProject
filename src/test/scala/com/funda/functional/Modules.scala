@@ -7,41 +7,20 @@ import scala.util.{Failure, Success, Try}
 import org.openqa.selenium.JavascriptExecutor
 
 /**
-  * Created by trtuncag on 9.12.2017.
+  * Created by gokcetuncay on 9.12.2017.
   */
 trait Modules extends BaseFunctionalTest{
-//  this: BaseFunctionalTest =>
 
-  object SearchContainer {
     def search(searchTerm: String, isHomePage: Boolean) = {
       searchClear
       val searchTextBox = webDriver.findElement(By.id("autocomplete-input"))
       searchTextBox.sendKeys(searchTerm)
-      Thread.sleep(600)
+      Thread.sleep(1200)
       autocompleteFirstAddress
-      Thread.sleep(600)
+      Thread.sleep(1200)
       searchButton(isHomePage).click()
     }
 
-    def searchWithFilter(searchTerm: String, isHomePage: Boolean) = {
-      searchClear
-      val searchTextBox = webDriver.findElement(By.id("autocomplete-input"))
-      searchTextBox.sendKeys(searchTerm)
-      Thread.sleep(600)
-      autocompleteFirstAddress
-      Thread.sleep(600)
-      val radius = filterRadius.get(3).getAttribute("value")
-      filterRadius.get(3)
-      val rangeFrom = filterRangeFrom.get(2).getAttribute("value")
-      filterRangeFrom.get(2).click()
-      val rangeUntil = filterRangeUntil.get(6).getAttribute("value")
-      filterRangeUntil.get(6).click()
-      searchButton(isHomePage).click()
-
-    }
-  }
-
-    def cookiePolicyButton = eventually(webDriver.findElement(By.className("cookie-policy-button-text")))
     def notificationButton = eventually(webDriver.findElement(By.className("notification-close")))
 
     def searchClear = {
@@ -82,9 +61,26 @@ trait Modules extends BaseFunctionalTest{
 
 //    def searchResultCount = eventually(webDriver.findElement((By.cssSelector(".search-output-result-count")))).getText.split("/s")
 
-    def filterRadius = eventually(webDriver.findElement(By.id("Straal"))).findElements(By.cssSelector("option"))
+    def filterRadius = eventually(webDriver.findElement(By.id("Straal")))
 
-    def filterRangeFrom = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijsvan"))).findElements(By.cssSelector("option"))
+    def filterRangeFrom = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijsvan")))
 
-    def filterRangeUntil = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijstot"))).findElements(By.cssSelector("option"))
+    def filterRangeUntil = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijstot")))
+
+    def ApplyFilters(setRadius: Int, setFromPrice: Int, setUntilPrice: Int) = {
+      filterRadius.findElements(By.cssSelector("option")).get(setRadius).click()
+      filterRangeFrom.findElements(By.cssSelector("option")).get(setFromPrice).click()
+      filterRangeUntil.findElements(By.cssSelector("option")).get(setUntilPrice).click()
+    }
+
+    def getFilterValues = {
+      Seq(
+      filterRadius.getAttribute("value"),
+      filterRangeFrom.getAttribute("value"),
+      filterRangeUntil.getAttribute("value"))
+    }
+
+    def appliedPriceFilter = {
+      eventually(webDriver.findElement(By.cssSelector(".button-applied-filter")).getText)
+    }
 }

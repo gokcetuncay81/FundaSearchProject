@@ -12,13 +12,12 @@ import scala.util.matching.Regex
 import com.funda.functional.Modules
 
 /**
-  * Created by trtuncag on 9.12.2017.
+  * Created by gokcetuncay on 9.12.2017.
   */
 trait Pages extends Modules {
   this: BaseFunctionalTest =>
 
-  def acceptCookies = {
-    cookiePolicyButton.click()
+  def acceptCookiePolicy = {
     notificationButton.click()
   }
 
@@ -33,22 +32,25 @@ trait Pages extends Modules {
         tabsModuleElements.size() > 0
     }
 
-    def searchFor(searchTerm: String,isFiltered:Boolean=false) {
-      if (isFiltered)
-        SearchContainer searchWithFilter(searchTerm,true)
-      else
-        SearchContainer search(searchTerm,true)
+    def searchFor(searchTerm: String) {
+        search(searchTerm,true)
     }
   }
 
-  class FundaSearchResultPage(tabName: String,isFiltered:Boolean = false) extends BaseFunctionalTest {
+  class FundaSearchResultPage(tabName: String) extends BaseFunctionalTest {
     def opened = {
         eventually(currentUrl should include(tabName))
         searchResultSet.isDisplayed
+        if (getFilterValues.nonEmpty) {
+          if (getFilterValues{0}.nonEmpty)
+            currentUrl should include(getFilterValues{0}.trim)
+          if (getFilterValues{1}.nonEmpty || getFilterValues{2}.nonEmpty)
+            appliedPriceFilter should (include(getFilterValues{1}) or  include(getFilterValues{2}))
+        }
     }
 
     def searchFor(searchTerm: String) {
-      SearchContainer search(searchTerm,false)
+        search(searchTerm,false)
     }
   }
 

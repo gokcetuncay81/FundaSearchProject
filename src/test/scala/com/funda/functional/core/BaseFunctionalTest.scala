@@ -5,7 +5,6 @@ import java.net.URL
 
 import com.funda.functional.core.configuration.Configuration
 import com.gargoylesoftware.htmlunit.{BrowserVersion, WebClient}
-//import com.sony.gwt.test.functional.core.BaseFunctionalTest._
 import com.typesafe.scalalogging.StrictLogging
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.{ChromeDriver, ChromeOptions}
@@ -19,7 +18,7 @@ import org.scalatest.selenium.WebBrowser
 import org.scalatest.{Matchers, TestSuite}
 
 /**
-  * Created by trtuncag on 9.12.2017.
+  * Created by gokcetuncay on 9.12.2017.
   */
 trait BaseFunctionalTest extends TestSuite with Matchers with WebBrowser with StrictLogging with Eventually with IntegrationPatience {
 
