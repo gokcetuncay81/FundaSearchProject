@@ -26,3 +26,4 @@ tags
 *.sc
 *.pyc
 test.sc
+.idea/workspace.xml

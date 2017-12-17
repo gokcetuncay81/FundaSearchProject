@@ -1,7 +1,11 @@
 package com.funda.functional
 
+import java.util
+
 import com.funda.functional.core.BaseFunctionalTest
-import org.openqa.selenium.By
+import org.openqa.selenium.{Dimension, _}
+import org.openqa.selenium.support.ui.Select
+
 import scala.util.{Failure, Success, Try}
 
 /**
@@ -70,6 +74,43 @@ trait Modules extends BaseFunctionalTest{
         filterRadius.getAttribute("value"),
         filterRangeFrom.getAttribute("value"),
         filterRangeUntil.getAttribute("value"))
+
+      WebElement mySelectElement = new WebElement {override def sendKeys(keysToSend: CharSequence*): Unit = ???
+
+        override def findElements(by: By): util.List[WebElement] = ???
+
+        override def getSize: Dimension = ???
+
+        override def isEnabled: Boolean = ???
+
+        override def getAttribute(name: String): String = ???
+
+        override def clear(): Unit = ???
+
+        override def getCssValue(propertyName: String): String = ???
+
+        override def getRect: Rectangle = ???
+
+        override def click(): Unit = ???
+
+        override def getLocation: Point = ???
+
+        override def isDisplayed: Boolean = ???
+
+        override def getText: String = ???
+
+        override def getTagName: String = ???
+
+        override def isSelected: Boolean = ???
+
+        override def submit(): Unit = ???
+
+        override def findElement(by: By): WebElement = ???
+
+        override def getScreenshotAs[X](target: OutputType[X]): X = ???
+      } webDriver.findElement(By.id("mySelect"))
+
+      Select dropdown= new Select(mySelectElement);
     }
 
 
