@@ -34,13 +34,6 @@ trait Pages extends Modules {
     def opened = {
         eventually(currentUrl should include(tabName))
         searchResultSet.isDisplayed
-//        if (getFilterValues(tabName)) {
-//          println("girdi")
-//          if (getFilterValues{0}.nonEmpty)
-//            currentUrl should include(getFilterValues{0}.trim)
-//          if (getFilterValues{1}.nonEmpty || getFilterValues{2}.nonEmpty)
-//            appliedPriceFilter should (include(getFilterValues{1}) or  include(getFilterValues{2}))
-//        }
     }
 
     def searchFor(searchTerm: String) {

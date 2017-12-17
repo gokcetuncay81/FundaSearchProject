@@ -1,7 +1,7 @@
 [0m[[0minfo[0m] [0m[32mFundaSearchResultPageSuite:[0m[0m
 [0m[[0minfo[0m] [0m[32m- should make a search successfully[0m[0m
 [0m[[0minfo[0m] [0m[31m- should navigate to the suggestions page when there is no result *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 98 times over 15.001659036000001 seconds. Last failure message: "https://www.funda.nl/" did not include substring "/zoeksuggestie/". (Pages.scala:53)[0m[0m
+[0m[[0minfo[0m] [0m[31m  The code passed to eventually never returned normally. Attempted 98 times over 15.090111634 seconds. Last failure message: "https://www.funda.nl/" did not include substring "/zoeksuggestie/". (Pages.scala:46)[0m[0m
 [0m[[0minfo[0m] [0m[32m- should make a new search over a previous search[0m[0m
 [0m[[0minfo[0m] [0m[32m- should filter the results accordingly when doing a search[0m[0m
 [0m[[0minfo[0m] [0m[33m- should bring zero results with a warning message when From parameter is given higher than the Until parameter (pending)[0m[0m
