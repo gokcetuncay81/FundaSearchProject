@@ -32,3 +32,6 @@ testOnly -- -z "filter the results accordingly when doing a search"
 testOnly
 testOnly -- -z "filter the results accordingly when doing a search"
 testOnly
+testOnly -- -z "make a search successfully"
+testOnly -- -z "filter the results accordingly when doing a search"
+testOnly

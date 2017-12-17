@@ -25,3 +25,4 @@ tags
 .cache-tests
 *.sc
 *.pyc
+test.sc

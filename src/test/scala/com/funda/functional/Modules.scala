@@ -57,28 +57,20 @@ trait Modules extends BaseFunctionalTest{
 
     def searchResultSet = eventually(webDriver.findElement(By.cssSelector(".search-results")))
 
-//    def searchResultCount = eventually(webDriver.findElement((By.cssSelector(".search-output-result-count")))).getText.split("/s")
+    def getApplyFilterValues(tabName: String,setRadius: Int, setFromPrice: Int, setUntilPrice: Int) ={
+        def filterRadius = eventually(webDriver.findElement(By.id("Straal")))
+        def filterRangeFrom = eventually(webDriver.findElement(By.id(s"range-filter-selector-select-filter_${tabName}prijsvan")))
+        def filterRangeUntil = eventually(webDriver.findElement(By.id(s"range-filter-selector-select-filter_${tabName}prijstot")))
 
-    def filterRadius = eventually(webDriver.findElement(By.id("Straal")))
+        filterRadius.findElements(By.cssSelector("option")).get(setRadius).click()
+        filterRangeFrom.findElements(By.cssSelector("option")).get(setFromPrice).click()
+        filterRangeUntil.findElements(By.cssSelector("option")).get(setUntilPrice).click()
 
-    def filterRangeFrom = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijsvan")))
-
-    def filterRangeUntil = eventually(webDriver.findElement(By.id("range-filter-selector-select-filter_huurprijstot")))
-
-    def ApplyFilters(setRadius: Int, setFromPrice: Int, setUntilPrice: Int) = {
-      filterRadius.findElements(By.cssSelector("option")).get(setRadius).click()
-      filterRangeFrom.findElements(By.cssSelector("option")).get(setFromPrice).click()
-      filterRangeUntil.findElements(By.cssSelector("option")).get(setUntilPrice).click()
+        Seq(
+        filterRadius.getAttribute("value"),
+        filterRangeFrom.getAttribute("value"),
+        filterRangeUntil.getAttribute("value"))
     }
 
-    def getFilterValues = {
-      Seq(
-      filterRadius.getAttribute("value"),
-      filterRangeFrom.getAttribute("value"),
-      filterRangeUntil.getAttribute("value"))
-    }
 
-    def appliedPriceFilter = {
-      eventually(webDriver.findElement(By.cssSelector(".button-applied-filter")).getText)
-    }
 }

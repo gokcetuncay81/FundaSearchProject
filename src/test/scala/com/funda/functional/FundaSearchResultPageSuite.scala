@@ -45,9 +45,10 @@ class FundaSearchResultPageSuite extends FlatSpec with Pages{
     homePage.opened shouldBe true
 
     tabsModuleElements.get(1).click()
-    ApplyFilters(2,4,5)
+
+    getApplyFilterValues("huur",2,4,5)
     homePage.searchFor("Utrecht")
-    searchResultPage.opened shouldBe succeed
+    searchResultPage.opened shouldBe true
   }
 
   it should "bring zero results with a warning message when From parameter is given higher than the Until parameter" in {
